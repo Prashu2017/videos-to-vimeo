@@ -1,0 +1,172 @@
+/* version 2.9 table added */
+.WebTyron-container {
+	-webkit-font-smoothing: antialiased;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: .9em;
+	color: #1e2a28;
+	width: 740px;
+	margin: 0 auto;
+	padding: 0px 20px 20px 20px;
+}
+
+.WebTyron-container table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.WebTyron-container td, .WebTyron-container th {
+	text-align: left;
+	padding: 8px;
+}
+
+.WebTyron-container h1 {
+	font-weight: normal;
+}
+
+input[type=text].WebTyron-input, .WebTyron-container input,
+	.WebTyron-container textarea, .WebTyron-container select, .WebTyron-input,
+	.WebTyron-select {
+	box-sizing: border-box;
+	width: 200px;
+	height: initial;
+	padding: 8px 5px;
+	border: 1px solid #9a9a9a;
+	border-radius: 3px;
+}
+
+.WebTyron-container input[type="checkbox"] {
+	width: auto;
+	vertical-align: text-bottom;
+	display: initial;
+	opacity: initial;
+	position: inherit;
+	pointer-events: initial;
+}
+
+.WebTyron-container textarea, .WebTyron-textarea {
+	width: 300px;
+}
+
+.WebTyron-container select, .WebTyron-select {
+	display: initial;
+	height: 30px;
+	background-color: #fff;
+	padding: 2px 5px;
+}
+
+.WebTyron-container button {
+	width: 100px;
+	padding: 6px 0px;
+	font-size: 1em;
+	cursor: pointer;
+	border-radius: 3px;
+	background: #1871e6;
+	color: #FFF;
+	margin: 0px 20px 20px 0;
+	border: #1469d8 1px solid;
+}
+
+.WebTyron-container button:focus {
+	outline: none;
+}
+
+.WebTyron-container .WebTyron-row {
+	padding-top: 15px;
+}
+
+#WebTyron-message {
+	padding: 6px 20px;
+	font-size: 1em;
+	color: rgb(40, 40, 40);
+	box-sizing: border-box;
+	margin: 0px;
+	border-radius: 3px;
+	width: 100%;
+	overflow: auto;
+}
+
+.WebTyron-container .error {
+	padding: 6px 20px;
+	border-radius: 3px;
+	background-color: #fb817c;
+	border: 1px solid #e46b66;
+}
+
+.WebTyron-container .success {
+	background-color: #48e0a4;
+	border: #40cc94 1px solid;
+}
+
+#WebTyron-loader-icon {
+	color: #1871e6;
+	font-weight: bold;
+	padding: 6px 20px 6px 0;
+	display: none;
+	vertical-align: middle;
+}
+
+#WebTyron-loader-ack-icon {
+	color: #1871e6;
+	font-weight: bold;
+	padding: 6px 20px 6px 0;
+	display: none;
+	vertical-align: middle;
+}
+
+#WebTyron-btn-send:hover {
+	background: #1363cc;
+	border: #105bbd 1px solid;
+}
+
+.WebTyron-container .validation-message {
+	color: #e20900;
+	display: inline-block;
+}
+
+.WebTyron-container .label {
+	margin-bottom: 3px;
+}
+
+.WebTyron-form, .WebTyron-section {
+	border: #eaeaea 1px solid;
+	padding: 10px 25px 10px 30px;
+	border-radius: 3px;
+}
+
+.WebTyron-container .display-none {
+	display: none;
+}
+
+.icon-add-more-attachemnt {
+	cursor: pointer;
+	font-style: italic;
+	font-size: .9em;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+@media all and (max-width: 780px) {
+	.WebTyron-container {
+		width: auto;
+	}
+}
+
+@media all and (max-width: 400px) {
+	.WebTyron-container {
+		padding: 0px 20px;
+	}
+	.WebTyron-container h1 {
+		font-size: 1.2em;
+	}
+	.WebTyron-container input, .WebTyron-container textarea, .WebTyron-container select
+		{
+		width: 100%;
+	}
+	.WebTyron-form {
+		border: none;
+		padding: 0;
+	}
+}
